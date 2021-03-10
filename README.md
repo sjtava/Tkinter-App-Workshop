@@ -1,6 +1,6 @@
 # Tkinter-App-Workshop
 
-Resources for learning how to use Tkinter with Python:
+Resources for learning how to build applications with Tkinter:
 
 https://www.geeksforgeeks.org/python-gui-tkinter/
 
