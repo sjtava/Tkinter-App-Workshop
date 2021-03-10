@@ -8,7 +8,7 @@ How to make your app an executable file:
 
 https://www.youtube.com/watch?v=QWqxRchawZY
 
-Ideas of what to build with Tkinter:
+Tkinter App Ideas:
 
 https://timetoprogram.com/tkinter-project-ideas/
 
