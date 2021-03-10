@@ -1,13 +1,8 @@
 # Tkinter-App-Workshop
 
+Resources for learning how to use Tkinter with Python:
 
-
-
-
-
-
-
-
+https://www.geeksforgeeks.org/python-gui-tkinter/
 
 How to make your app an executable file:
 
