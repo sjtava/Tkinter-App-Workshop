@@ -2,6 +2,9 @@
 
 Learn how to build a stock price app with Tkinter and Python!
 
+Repl.it: https://replit.com/~
+Polygon: https://polygon.io/docs/getting-started
+
 Resources for learning how to build applications with Tkinter:
 
 https://www.geeksforgeeks.org/python-gui-tkinter/
