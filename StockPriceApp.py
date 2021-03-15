@@ -38,7 +38,7 @@ def get_close_price():
   # making a get request to the endpoint, assigning the data that it returns to the variable r
   r = requests.get(url)
 
-  # decoding the response object to json, which makes it a Python dictionary
+  # making the response object a Python dictionary
   data = r.json()
 
   # making sure the value at the resultsCount key is not equal to zero (zero would mean that the API call did not return a close price)
