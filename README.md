@@ -1,6 +1,6 @@
 # Tkinter-App-Workshop
 
-This workshop covers how to build a GUI with Python and Tkinter! The app will make an API call to get and display the last closing price of any stock that the user inputs.
+This workshop covers how to build a GUI with Python and Tkinter! This app makes an API call to get and display the last closing price of any stock that the user inputs.
 
 What you'll need for the workshop:
 
