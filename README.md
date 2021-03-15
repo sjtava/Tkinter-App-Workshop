@@ -1,9 +1,11 @@
 # Tkinter-App-Workshop
 
-Learn how to build a stock price app with Tkinter and Python!
+This workshop covers how to build a GUI with Python and Tkinter! The app will make an API call to get the last closing price of any stock.
 
-Repl.it: https://replit.com/~    
-Polygon: https://polygon.io/docs/getting-started
+What you'll need for the workshop:
+
+Repl.it account: https://repl.it/   
+Polygon account: https://polygon.io/
 
 **Other Resources** for learning how to build applications with Tkinter:
 
