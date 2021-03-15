@@ -30,8 +30,10 @@ def get_close_price():
   # getting the stock sumbol that the user inputted and assigning it to the variable name stock
   stock = user_input.get()
 
+  key = 'place your key here'
+
   # assigning the endpoint URL to a variable
-  url = f"https://api.polygon.io/v2/aggs/ticker/{stock.upper()}/prev?unadjusted=true&apiKey=TVbvSU4uMQmWfhfhnfK0LKFV4XH4Megk"
+  url = f"https://api.polygon.io/v2/aggs/ticker/{stock.upper()}/prev?unadjusted=true&apiKey={key}"
 
   # making a get request to the endpoint, assigning the data that it returns to the variable r
   r = requests.get(url)
