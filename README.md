@@ -10,6 +10,7 @@ Polygon account: https://polygon.io/
 **Other Resources** for learning how to build applications with Tkinter:
 
 General Info: 
+
 https://www.geeksforgeeks.org/python-gui-tkinter/
 
 About Widgets:
