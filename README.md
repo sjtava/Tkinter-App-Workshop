@@ -9,7 +9,12 @@ Polygon account: https://polygon.io/
 
 **Other Resources** for learning how to build applications with Tkinter:
 
+General Info: 
 https://www.geeksforgeeks.org/python-gui-tkinter/
+
+About Widgets:
+
+https://www.tutorialspoint.com/python/python_gui_programming.htm
 
 How to make your app an executable file:
 
