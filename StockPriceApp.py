@@ -28,12 +28,12 @@ user_input.pack()
 def get_close_price():
 
   # getting the stock symbol that the user inputted and assigning it to the variable stock
-  stock = user_input.get()
+  stock = user_input.get().upper()
 
   key = "place your key here"
 
   # assigning the endpoint URL to a variable
-  url = f"https://api.polygon.io/v2/aggs/ticker/{stock.upper()}/prev?unadjusted=true&apiKey={key}"
+  url = f"https://api.polygon.io/v2/aggs/ticker/{stock}/prev?unadjusted=true&apiKey={key}"
 
   # making a get request to the endpoint, assigning the data that it returns to the variable r
   r = requests.get(url)
@@ -48,14 +48,14 @@ def get_close_price():
     close_price = data["results"][0]["c"]
 
     # updating the close_price_label with the close price
-    close_price_label.config(text=f"The last closing price of \n {stock.upper()} was ${close_price}!", fg="black", font=("Courier New", 12, "bold"))
-  
+    close_price_label.config(text=f"The last closing price of \n {stock} was ${close_price}!", fg="black", font=("Courier New", 12, "bold"))
+
   # prompting the user to enter a valid symbol if the resultsCount key has a value of zero
   else:
     close_price_label.config(text="Please enter a valid symbol!", fg="red", font=("Courier New", 13, "bold"))
 
 # creating a button that executes the get_close_price function and returns the close price to the user
-button = Button(window, text="Calculate", font=("Courier New", 12), bg="black", fg="white",command=get_close_price)
+button = Button(window, text="Calculate", font=("Courier New", 12), bg="black", fg="white", command=get_close_price)
 button.pack(pady=10)
 
 # creating a blank result label (for the closing price and the error message)
