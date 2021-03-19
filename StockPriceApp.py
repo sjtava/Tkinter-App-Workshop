@@ -48,7 +48,7 @@ def get_close_price():
     close_price = data["results"][0]["c"]
 
     # updating the close_price_label with the close price
-    close_price_label.config(text=f"The last closing price of \n {stock} was ${close_price}!", fg="black", font=("Courier New", 12, "bold"))
+    close_price_label.config(text=f"{stock.upper()} closed at ${close_price} last!", fg="black", font=("Courier New", 12, "bold"))
 
   # prompting the user to enter a valid symbol if the resultsCount key has a value of zero
   else:
