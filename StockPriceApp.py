@@ -39,7 +39,7 @@ def get_close_price():
   # making a get request to the endpoint, assigning the data that it returns to the variable r
   r = requests.get(url)
 
-  # making the response object a Python dictionary
+  # converting the response object to a Python dictionary
   data = r.json()
 
   # making sure the value at the resultsCount key is not equal to zero (zero would mean that the API call did not return a close price)
@@ -54,7 +54,6 @@ def get_close_price():
   # prompting the user to enter a valid symbol if the resultsCount key has a value of zero
   else:
 
-    # updating the close_price_label with the close price an error message
     close_price_label.config(text="Please enter a valid symbol!", fg="red", font=("Courier New", 13, "bold"))
 
 # creating a button that executes the get_close_price function and returns the close price to the user
