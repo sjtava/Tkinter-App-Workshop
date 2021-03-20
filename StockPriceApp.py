@@ -30,6 +30,7 @@ def get_close_price():
   # getting the stock symbol that the user inputted and assigning it to the variable stock
   stock = user_input.get().upper()
 
+  # assigning thre API key to a variable
   key = "place your key here"
 
   # assigning the endpoint URL to a variable
@@ -52,6 +53,8 @@ def get_close_price():
 
   # prompting the user to enter a valid symbol if the resultsCount key has a value of zero
   else:
+
+    # updating the close_price_label with the close price an error message
     close_price_label.config(text="Please enter a valid symbol!", fg="red", font=("Courier New", 13, "bold"))
 
 # creating a button that executes the get_close_price function and returns the close price to the user
